@@ -1,0 +1,14 @@
+{
+  "name": "shadowsocks-ws",
+  "repository": "https://github.com/yurfw64trd/shadowsocks-ws",
+  "env": {
+    "METHOD": {
+      "description": "Only 'chacha20-ietf-poly1305' and 'aes-256-gcm' are supported.",
+      "value": "chacha20-ietf-poly1305"
+    },
+    "PASS": {
+      "description": "Your password.",
+      "generator": "secret"
+    }
+  }
+}
